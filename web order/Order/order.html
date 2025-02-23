@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Đồ Ăn</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Đặt Món Ăn</h1>
+        <div id="menu">
+            <div class="menu-item">
+                <h2>Bánh Mì</h2>
+                <p>Giá: 20.000 VNĐ</p>
+                <button onclick="order('Bánh Mì', 20000)">Đặt Hàng</button>
+            </div>
+            <div class="menu-item">
+                <h2>Phở</h2>
+                <p>Giá: 40.000 VNĐ</p>
+                <button onclick="order('Phở', 40000)">Đặt Hàng</button>
+            </div>
+            <div class="menu-item">
+                <h2>Gà Rán</h2>
+                <p>Giá: 50.000 VNĐ</p>
+                <button onclick="order('Gà Rán', 50000)">Đặt Hàng</button>
+            </div>
+            <div class="menu-item">
+                <h2>Pizza</h2>
+                <p>Giá: 100.000 VNĐ</p>
+                <button onclick="order('Pizza', 100000)">Đặt Hàng</button>
+            </div>
+        </div>
+        <h2>Đơn Hàng Của Bạn</h2>
+        <ul id="order-list"></ul>
+        <p id="total-price">Tổng Giá: 0 VNĐ</p>
+    </div>
+    <script src="order.js"></script>
+</body>
+</html>

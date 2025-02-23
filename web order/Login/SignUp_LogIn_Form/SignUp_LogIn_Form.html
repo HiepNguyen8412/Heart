@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup Form</title>
+    <link rel="stylesheet" href="SignUp_LogIn_Form.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!--Đăng nhập-->
+    <div class="container">
+        <div class="form-box login">
+            <form action="#">
+                <h1>Đăng Nhập</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Tên người dùng" id="User" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Mật Khẩu" id="password" required>
+                    <i class='bx bxs-lock-alt' ></i>
+                </div>
+                <div class="forgot-link">
+                    <a href="file:///D:/HTML%2Bcss%2Bjs/D%E1%BB%B1%20%C3%A1n%20web%20order/Login/Forgetpass/quen-mat-khau.html">Quên mật khẩu?</a>
+                </div>
+                <button class="btn">
+                        <a href="file:///D:/HTML%2Bcss%2Bjs/D%E1%BB%B1%20%C3%A1n%20web%20order/Order/order.html" style="color: aliceblue;">Đăng nhập</a>
+                </button>
+                    <div class="social-icons">
+                    <a href="#" class="google-icon"><i class='bx bxl-google' ></i></a>
+                    <a href="#" class="facebook-icon"><i class='bx bxl-facebook' ></i></a>  
+        </div>
+    </form>
+    </div>
+        <!--Đăng kí-->
+        <div class="form-box register">
+            <form action="#">
+                <h1> Đăng kí </h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Tên người dùng" id="username" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="Email" id="Email" required>
+                    <i class='bx bxs-envelope' ></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Mật khẩu" id="password" required>
+                    <i class='bx bxs-lock-alt' ></i>
+                </div>
+                <button type="submit" class="btn">Đăng ký</button>
+                <div class="social-icons">
+                    <a href="#" class="google-icon"><i class='bx bxl-google' ></i></a>
+                    <a href="#" class="facebook-icon"><i class='bx bxl-facebook' ></i></a>
+                </div>
+            </form> 
+        </div>
+        <div class="toggle-box">
+            <div class="toggle-panel toggle-left">
+                <h1>Hello, Welcome!</h1>
+                <p>Không có tài khoản?</p>
+                <button class="btn register-btn">Đăng kí</button>
+            </div>
+
+            <div class="toggle-panel toggle-right">
+                <h1>Welcome Back!</h1>
+                <p>Đã có tài khoản đăng nhập</p>
+                <button class="btn login-btn">Đăng nhập</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="SignUp_LogIn_Form.js"></script>
+</body>
+</html>
